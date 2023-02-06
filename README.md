@@ -4,7 +4,6 @@
 1. Go to "/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 208
 
 Before:
--------------------------------------------------------------------------------------
 $requiredExtensions = [
       'intl',
       'json',
@@ -12,7 +11,6 @@ $requiredExtensions = [
 ];
 
 After:
--------------------------------------------------------------------------------------
 $requiredExtensions = [
       //'intl',
       'json',
