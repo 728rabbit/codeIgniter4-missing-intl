@@ -1,16 +1,18 @@
 # Mac + XAMPP 8+, missing intl issue
 
 
-1."/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 208
+1. Edit "/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 208
 
-Before
+Before:
+-------------------------------------------------------------------------------------
 $requiredExtensions = [
       'intl',
       'json',
       'mbstring',
 ];
 
-After
+After:
+-------------------------------------------------------------------------------------
 $requiredExtensions = [
       //'intl',
       'json',
@@ -18,8 +20,7 @@ $requiredExtensions = [
 ];
 
 
-
-2."/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 186
+2. Edit "/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 186
 
 Before:
 -------------------------------------------------------------------------------------
@@ -35,7 +36,7 @@ if(function_exists('locale_set_default')) {
 
 
 
-3."/Applications/XAMPP/htdocs/codeigniter4/system/I18n/Time.php -- line 78
+3. Edit "/Applications/XAMPP/htdocs/codeigniter4/system/I18n/Time.php -- line 78
 
 Before:
 -------------------------------------------------------------------------------------
