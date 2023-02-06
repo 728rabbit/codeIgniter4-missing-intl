@@ -1,7 +1,7 @@
 # Mac + XAMPP 8+, missing intl issue
 
 
-1. Edit "/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 208
+Step1: Edit "/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 208
 
 Before:
 -------------------------------------------------------------------------------------
@@ -20,7 +20,7 @@ $requiredExtensions = [
 ];
 
 
-2. Edit "/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 186
+Step2: Edit "/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 186
 
 Before:
 -------------------------------------------------------------------------------------
@@ -36,7 +36,7 @@ if(function_exists('locale_set_default')) {
 
 
 
-3. Edit "/Applications/XAMPP/htdocs/codeigniter4/system/I18n/Time.php -- line 78
+Step3: Edit "/Applications/XAMPP/htdocs/codeigniter4/system/I18n/Time.php -- line 78
 
 Before:
 -------------------------------------------------------------------------------------
