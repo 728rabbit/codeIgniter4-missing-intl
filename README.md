@@ -1,4 +1,4 @@
-# Mac + XAMPP 8+, missing intl issue
+# CodeIgniter4, Mac & XAMPP v8+, missing intl issue
 
 
 Step1: Edit "/Applications/XAMPP/htdocs/codeigniter4/system/CodeIgniter.php" -- line 208
